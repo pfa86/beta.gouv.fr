@@ -18,7 +18,7 @@ layout: default
 <div class="post-container">
 	<article class="post">
 		<div class="excerpt">{{ page.excerpt }}</div>
-		<div class="pubdate">Paru le<time>{{ page.date | date:'%d-%m-%Y' }}</time></div>
+		<div class="pubdate">Paru le<time datetime="'%Y-%m-%d'">{{ page.date | date:'%d-%m-%Y' }}</time></div>
 
 		{% if startup %}
 			<aside>{% include startup-card.html description=startup %}</aside>

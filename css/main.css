@@ -58,6 +58,10 @@ blockquote {
 	padding-left: 2em;
 }
 
+pubdate {
+	font-size: 70%;
+}
+
 .cta {
 	cursor: pointer;
 	font-weight: bold;

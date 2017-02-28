@@ -18,7 +18,6 @@ layout: default
 <div class="post-container">
 	<article class="post">
 		<div class="excerpt">{{ page.excerpt }}</div>
-		<div class="pubdate">Paru le<time datetime="{{ page.date | date:'%d-%m-%Y' }}">{{ page.date | date:'%d-%m-%Y' }}</time></div>
 
 		{% if startup %}
 			<aside>{% include startup-card.html description=startup %}</aside>
@@ -40,6 +39,7 @@ layout: default
 		</address>
 		{% endif %}
 
+		<footer>Paru le <time datetime="{{ page.date | date:'%Y-%m-%d' }}">{{ page.date | date: "%m/%d/%Y" }}</time></footer>
 		<div class="ui divider"></div>
 
 		<footer>

@@ -9,6 +9,7 @@ article footer h3, article footer p {
 article footer, address {
   font-style: normal;
   font-size: 80%;
+  margin-top: 1em;
 }
 
 address.ui.cards {
